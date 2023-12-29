@@ -9,7 +9,7 @@ class GUI(tk.Tk):
         self.title("Currency Converter")
 
         # List available currencies
-        self.currencies = ["GBP", "USD", "EUR", "INR", "JPY", "CAD", "AUD", "AUD", "CHF", "CNY", "SEK", "NZD", "BRL", "ZAR"]
+        self.currencies = ["GBP", "USD", "EUR", "INR", "JPY", "CAD", "AUD", "CHF", "CNY", "SEK", "NZD", "BRL", "ZAR"]
 
         # List conversion rates for February 2, 2022
         self.conversion_rates = dict(zip(self.currencies, [1.36, 1.00, 1.13, 0.014, 0.0092, 0.78, 0.74, 1.10, 0.16, 0.12, 0.69, 0.18, 0.067]))
